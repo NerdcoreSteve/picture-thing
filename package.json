@@ -1,24 +1,24 @@
 {
-  "name": "space-rocket",
+  "name": "picture-thing",
   "version": "0.0.1",
-  "description": "A game with a space rocket",
+  "description": "A picture thing game",
   "main": "index.js",
   "scripts": {
     "build": "browserify front-end/js/main.js -o public/js/main.js -t [ babelify --presets [ latest ] --plugins [ transform-object-rest-spread ] ]"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NerdcoreSteve/space-rocket.git"
+    "url": "git+https://github.com/NerdcoreSteve/picture-thing.git"
   },
   "keywords": [
     "game"
   ],
-  "author": "Steve Smith",
+  "author": "Sharon Hilchie",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NerdcoreSteve/space-rocket/issues"
+    "url": "https://github.com/NerdcoreSteve/picture-thing/issues"
   },
-  "homepage": "https://github.com/NerdcoreSteve/space-rocket#readme",
+  "homepage": "https://github.com/NerdcoreSteve/picture-thing#readme",
   "dependencies": {
     "express": "^4.14.0",
     "pug": "^2.0.0-beta6"
